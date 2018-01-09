@@ -49,14 +49,18 @@ $lon = $response->getLongitude();
 
 ?>
 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
 
+<body>
 <script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=en_RU"></script>
 <style>
         html, body, #map {
             width: 100%; height: 100%; padding: 0; margin: 0;
         }
 </style>
-
 <div id="map"></div>
 
 <script>
@@ -75,3 +79,5 @@ function init() {
 
 }
 </script>
+</body>
+</html>
