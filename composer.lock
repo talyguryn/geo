@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "15d6b6f3d83291d3241e4fc0304ca27d",
+    "packages": [
+        {
+            "name": "yandex/locator",
+            "version": "0.9.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yandex-php/php-yandex-locator.git",
+                "reference": "1227a4fe4ace186d7c61e4de77f2da376d75da28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yandex-php/php-yandex-locator/zipball/1227a4fe4ace186d7c61e4de77f2da376d75da28",
+                "reference": "1227a4fe4ace186d7c61e4de77f2da376d75da28",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Yandex\\Locator": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Kuznetsov",
+                    "email": "kuznetsov2d@gmail.com",
+                    "homepage": "http://kuznetsov.io"
+                }
+            ],
+            "description": "PHP-library for interactions with Yandex.Locator",
+            "keywords": [
+                "api",
+                "locator",
+                "yandex"
+            ],
+            "time": "2015-08-20T10:40:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
