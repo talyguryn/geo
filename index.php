@@ -20,8 +20,11 @@ function getRealIpAddr() {
 $token = include 'config.php';
 
 $api = new \Yandex\Locator\Api($token);
+
+$ip = $_GET['ip'] ?: getRealIpAddr();
+
 // Определение местоположения по IP
-$api->setIp(getRealIpAddr());
+$api->setIp($ip);
 
 try {
     $api->load();
